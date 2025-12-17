@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백악기 이야기: 지구 최후의 날</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div id="slide-container">
+            <div id="image-area">
+                <img id="slide-image" src="" alt="Slide Image">
+                <div id="image-placeholder" class="hidden">
+                    <p>이미지 생성 필요</p>
+                    <p id="placeholder-text"></p>
+                </div>
+            </div>
+            <div id="text-area">
+                <div id="slide-content">
+                    <h1 id="slide-title"></h1>
+                    <p id="slide-text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="controls">
+            <button id="prev-btn" class="nav-btn">❮ 이전</button>
+            <span id="slide-indicator">1 / 25</span>
+            <button id="next-btn" class="nav-btn">다음 ❯</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
