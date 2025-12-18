@@ -96,7 +96,7 @@ body {
 }
 
 #slide-text {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     /* 1.5x of 2.55rem */
     line-height: 1.5;
     white-space: pre-wrap;
@@ -156,4 +156,5 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+
 }
